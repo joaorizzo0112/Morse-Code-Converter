@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joaorizzo0112 | Morse Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MORSE CODE CONVERTER</h1>
+            <p>Creator: joaorizzo0112</p>
+        </header>
+
+        <div class="converter-box">
+            <label id="labelTop">Text Input</label>
+            <textarea id="textInput" placeholder="Type text here..."></textarea>
+            
+            <div class="divider-container">
+                <button id="swapBtn" class="swap-btn">⇅</button>
+            </div>
+
+            <label id="labelBottom">Morse Output</label>
+            <textarea id="morseInput" placeholder="Morse will appear here..." readonly></textarea>
+        </div>
+
+        <div class="reference-section">
+            <h3>Morse Code Alphabet & Numbers</h3>
+            <div class="grid-table" id="referenceGrid"></div>
+        </div>
+
+        <footer>
+            <div class="button-group">
+                <button id="playBtn" class="primary-btn">Sound</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
