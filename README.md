@@ -19,7 +19,7 @@ An interactive Morse Code translator that allows you to convert text to Morse an
 
 ## 🔗 Live Demo
 Check out the project live:
-[https://joaorizzo0112.github.io/Morse-Translator/](https://joaorizzo0112.github.io/Morse-Translator/)
+[https://joaorizzo0112.github.io/Morse-Translator/]([https://joaorizzo0112.github.io/Morse-Translator/](https://joaorizzo0112.github.io/Morse-Code-Converter/))
 
 ## 📖 How to Use
 1. Type your message in the top input box.
